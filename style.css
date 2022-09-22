@@ -1,0 +1,12 @@
+@import url('./fonts/HWYGCOND.TTF');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'HWYGCOND', sans-serif;
+}
+
+/*header{
+
+}*/
