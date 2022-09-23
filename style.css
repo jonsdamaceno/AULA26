@@ -71,6 +71,10 @@ nav ul a:hover {
     background-color: #c2b2b4;
     text-align: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 
 .firstItem img{
@@ -86,6 +90,7 @@ nav ul a:hover {
 .cards{
     width: 100%;
     height: 300px;
+    align-items: center;
 }
 .cards img{
     width: 250px;
@@ -107,16 +112,23 @@ nav ul a:hover {
 .thirdItem{
     margin-top: 50px;
     width: 100vw;
-    height: 350px;
+    height: 490px;
     background-color: #c2b2b4;
     text-align: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-
+.row{
+    display: flex;
+    justify-content: center;
+}
 .thirdItem p{
     font-family:'Roboto';
     font-size:1rem;
     color:#fff;
+    text-align: left;
 }
 
 .fourthItem{
@@ -146,6 +158,7 @@ form {
 
 input {
     border: none;
+    padding-bottom: 20px;
     border-bottom: 1px solid #e9ecef;
 }
 
@@ -191,6 +204,7 @@ footer {
 .icon{
     width: 40px;
     height: 40px;
+    margin-right: 5px;
 }
 
 .copyright {
