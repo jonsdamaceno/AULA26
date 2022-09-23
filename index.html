@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
     crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Front End I - Aula 26 - Atividade</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-        
+        <a class="btn-menu" href="#">MENU <img src="./img/menu.png" alt="botão de menu"></a>
     </header>
 
     <main>
@@ -40,7 +40,9 @@
                 </div>
             </div>
             <div class="row">
-                <h5>Desenvolvedor - Entusiasta - Autodidata</h5>
+                <div class="col">
+                    <h5>Desenvolvedor - Entusiasta - Autodidata</h5>
+                </div>
             </div>
         </div>
 
@@ -52,17 +54,17 @@
                 </div>
             </div>
             <div class="row cards">
-                <div class="col-4">                
-                    <img src="./img/lemon-pie.jpeg" alt="fatia de torta de limão">
-                    <h4>Torta de Limão</h4>
-                <div>
                 <div class="col-4">
-                    <img src="./img/CVBatman.png" alt="batman lego">
+                    <img src="./img/lemon-pie.jpeg" alt="Torta de Limão">
+                    <h4>Lemon Pie</h4>
+                </div>
+                <div class="col-4">
+                    <img src="./img/CVBatman.png" alt="CV Batman">
                     <h4>CV Batman</h4>
                 </div>
-                <div class="col-4">                    
-                    <img src="./img/super.png" alt="onomatopeia splat">
-                    <h4>Super-heróis</h4>                    
+                <div class="col-4">
+                    <img src="./img/super.png" alt="joystick">
+                    <h4>Súpers</h4>
                 </div>
             </div>
             <div class="row cards">
@@ -80,6 +82,7 @@
                 </div>
             </div>
         </div>
+
 
         <div class="container-fluid thirdItem">
             <div class="row">
@@ -127,7 +130,7 @@
                         <input type="text" placeholder="Nome Completo">
                         <input type="email" placeholder="Email">
                         <input type="tel" placeholder="Número de telefone">
-                        <textarea cols="30" rows="10" placeholder="Mensagem"></textarea>
+                        <textarea cols="30" rows="5" placeholder="Mensagem"></textarea>
                         <button>Enviar</button>
                     </form>
                 </div>
@@ -136,25 +139,25 @@
     </main>
 
     <footer>
-        <div>
-            <div clas="place">
+        <div class="rodape">
+            <div class="place">
                 <h4>MEU LUGAR</h4>
                 <h5>Rua N</h5>
                 <h5>Cidade, Estado, CEP</h5>
             </div>
             <div class="links">
                 <h4>VAMOS NOS CONECTAR</h4>
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-instagram"></ion-icon>
-                <ion-icon name="logo-linkedin"></ion-icon>
-                <ion-icon name="logo-github"></ion-icon>
+                <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+                <ion-icon name="logo-github" class="icon"></ion-icon>
             </div>
-            <div>
+            <div class="pessoal">
                 <h4>SOBRE MIM</h4>
                 <span>Sou uma pessoa criativa e com vontade de aprender. Tenho conhecimento em HTML, CSS e Bootstrap.</span>
             </div>
         </div>
-        <div>
+        <div class="copyright">
             <h5>Todos os direitos reservados à Mesa 02/FrontEnd 1.</h5>
         </div>
     </footer>
