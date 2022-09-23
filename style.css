@@ -299,7 +299,7 @@ footer {
     height: 45px;
     font-size:0.8rem;
     font-family: 'Roboto';
-    line-height: 55px;
+    line-height: 45px;
 }
 
 @media (max-width: 460px) {
