@@ -126,6 +126,11 @@ nav ul a:hover {
 .cards{
     width: 100%;
     height: 300px;
+<<<<<<< HEAD
+=======
+    align-items: center;
+
+>>>>>>> ab713b31c57747cf2acc8cd5b7b8ebd5c8565114
 }
 
 .cards div:hover{
@@ -254,9 +259,9 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50vw;
+    width: 60vw;
     height: 450px;
-    margin-top: 50px;  
+    margin-top: 50px; 
 }
 
 input {
@@ -313,18 +318,17 @@ footer {
 .copyright {
     background-color: #1A252F;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
+    height: auto;
     width: 100%;
+    text-align: center;
+    line-height: 45px;
 }
 
 .copyright h5{
-    height: 100%;
+    height: 45px;
     font-size:0.8rem;
     font-family: 'Roboto';
-    line-height: 55px;
+    line-height: 45px;
 }
 
 @media (max-width: 460px) {
@@ -334,5 +338,57 @@ footer {
 
     nav {
         display: none;
+    }
+    .cards{
+        height: auto;
+    }
+    .secondItem{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        height: 160vh;
+        align-items: center;
+    }
+    .thirdItem{
+        height: 65vh;
+    }
+    .thirdItem p {
+        text-align: left;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 93vw;
+        height: 40vh;
+        border: none;
+        align-items: stretch;
+        align-content: stretch;
+        justify-content: space-evenly;
+    }
+    footer {
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .rodape {
+        height: 100%;
+        width: 100%;
+        background-color: #53687E;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .place, .links, .pessoal {
+        width: 70%;
+    }
+    .dothird{
+    margin-left:0;
     }
 }/*#2C3E51  #53687E #1A252F*/
