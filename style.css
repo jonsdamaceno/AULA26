@@ -77,6 +77,10 @@ nav ul a:hover {
     flex-wrap: nowrap;
 }
 
+.firstItem h2 {
+    font-size: 2.5rem;
+}
+
 .firstItem img{
     width: 136px;
     height: 144px;
@@ -85,6 +89,37 @@ nav ul a:hover {
     text-align: center;
     font-family: 'Roboto';
     font-size:1rem;
+}
+
+.star{
+   font-size: 1.5rem;
+}
+
+.white-star, .blue-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.white-star::before,
+.white-star::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    background-color: white;
+    vertical-align: middle;
+    width: 60px;
+}
+
+.blue-star::before,
+.blue-star::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    background-color: #2C3E51;
+    vertical-align: middle;
+    width: 60px;
 }
 
 .cards{
@@ -107,6 +142,10 @@ nav ul a:hover {
 
 .secondItem h3 {
     color: #2C3E51;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 .thirdItem{
@@ -150,21 +189,20 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 60vw;
+    width: 50vw;
     height: 450px;
-    border: none;
-    
+    margin-top: 50px;  
 }
 
 input {
     border: none;
     padding-bottom: 20px;
-    border-bottom: 1px solid #e9ecef;
+    border-bottom: 1px solid #d4d9de;
 }
 
 textarea{
     border: none;
-    border-bottom: 1px solid #e9ecef;
+    border-bottom: 1px solid #d4d9de;
 
 }
 
