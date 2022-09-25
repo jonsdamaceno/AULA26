@@ -359,7 +359,7 @@ footer {
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-evenly;
-        height: 160vh;
+        height: 180vh;
         align-items: center;
     }
     .thirdItem{
